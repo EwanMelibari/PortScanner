@@ -39,7 +39,7 @@ Once compiled, you can run the port_scanner.exe executable from your command pro
 Scanning a Single Port:
 To scan a specific port on a target IP address, use the following syntax:
 
-DOS
+
 ```cmd
 port_scanner.exe 127.0.0.1 80
 ```
@@ -48,7 +48,7 @@ This command will check if port 80 is open on 127.0.0.1 (localhost).
 Scanning a Port Range:
 To scan a range of ports, specify the start and end ports separated by a hyphen:
 
-DOS
+
 ````
 port_scanner.exe 192.168.1.1 20-100
 ````
@@ -57,7 +57,7 @@ This command will scan all ports from 20 to 100 on 192.168.1.1.
 Specifying a Custom Timeout (in milliseconds):
 You can set a custom timeout for connection attempts. The default timeout is 500 milliseconds.
 
-DOS
+
 ```
 port_scanner.exe 10.0.0.1 443 1000
 ```
